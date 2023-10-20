@@ -1,0 +1,136 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+.point-table, .polygon-table, .polyline-table{
+    margin-top: 50px;
+    margin-left: 50px;
+}
+
+.point-table
+{
+    display: inline-block;
+    width: 750px;
+}
+
+.polygon-table{
+    display: inline-block;
+    width: 750px;
+}
+
+.polyline-table{
+    display: inline-block;
+    width: 750px;
+    margin-left: 90px;
+    
+}
+/* Reset some default browser styles */
+body,
+h1,
+h2,
+table {
+    margin: 0;
+    padding: 0;
+}
+
+/* Set a background color for the entire page */
+body {
+    background-color: #f0f0f0;
+    font-family: Arial, sans-serif;
+}
+
+/* Style the main heading */
+h1 {
+    text-align: center;
+    background-color: #3498db;
+    color: #fff;
+    padding: 10px;
+    margin-bottom: 20px;
+}
+
+/* Style the secondary headings (e.g., Nama, Npm, Kelas) */
+h2 {
+    margin-left: 20px;
+}
+
+/* Style the map container */
+.map {
+    width: 100%;
+    height: 400px;
+    margin: 20px 0;
+}
+
+/* Style the data tables */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 20px;
+}
+
+th, td {
+    padding: 10px;
+    text-align: left;
+}
+
+/* Style table header cells */
+th {
+    background-color: #3498db;
+    color: #fff;
+}
+
+/* Style alternate rows in tables */
+tbody tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+
+/* Style the individual data tables (point, polygon, polyline) */
+.point-table h1,
+.polygon-table h1,
+.polyline-table h1 {
+    background-color: #3498db;
+    color: #fff;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+
+/* Style the map and info-table container */
+#info-table {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin: 0 20px;
+}
+
+/* Style the individual data tables' containers */
+.point-table,
+.polygon-table,
+.polyline-table {
+    flex-basis: calc(33.33% - 20px);
+    box-sizing: border-box;
+    padding: 10px;
+    border: 1px solid #ccc;
+    background-color: #fff;
+    border-radius: 5px;
+}
+
+/* Add some margin between the individual data tables */
+.point-table,
+.polygon-table,
+.polyline-table {
+    margin-right: 20px;
+}
+
+/* Add some padding to the individual data tables */
+.point-table,
+.polygon-table,
+.polyline-table {
+    padding: 10px;
+}
+
+/* Style the script.js container (if needed) */
+/* Add your styles for the script.js container here */
+
+/* Add any additional styles as needed */
